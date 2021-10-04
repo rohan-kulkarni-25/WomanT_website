@@ -1,0 +1,77 @@
+.navbar{
+    background: #131313;
+    padding: 1rem 8rem;
+    z-index: 1000;
+}
+
+.navbar .navbar-brand{
+    font-size: 1.4rem;
+    font-weight: 700;
+}
+
+#navbarSupportedContent > ul > li:nth-child(n) > a{
+    color: #fff;
+    font-size: 1.1rem;
+    padding: 0 0.8rem;
+}
+
+#navbarSupportedContent > ul > li:nth-child(n) > a:hover{
+    color: #00BF85;
+}
+
+#navbarSupportedContent >button{
+    background:#00BF85 ;
+    font-weight: 600;
+    padding: 0.4rem 1.4rem;
+    border-radius: 30px;
+}
+
+.mid {
+   width: 100%;
+    height: 100vh;
+    overflow: hidden;
+     display: flex;
+      position: relative; 
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    text-align: center; 
+    
+}
+
+ .mid video{
+    width: 100%;
+    height: 100%;
+    pointer-events: none;
+    object-fit: cover;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.hero{
+    position: absolute;
+}
+
+
+/* .text{
+    position: relative;
+    
+} */
+
+/* *{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    padding: 0;
+}
+
+ .text{
+     height: 100vh;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+ }
+ */
